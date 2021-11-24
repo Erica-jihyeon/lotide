@@ -4,7 +4,6 @@ const eqArrays = (arr1, arr2) => {
   }
   for (let i = 0; i < arr1.length; i++) {
     if (arr1[i] !== arr2[i]) {
-      isSame = false;
       return false;
     }
   }
@@ -22,4 +21,4 @@ const assertArraysEqual = function(actual, expected) {
 assertArraysEqual([1,2,3], [1,2,3]);
 assertArraysEqual([1,2,3], [3,2,3]);
 assertArraysEqual([1,2,3], [3,2]);
-assertArraysEqual(["hello", "world", "lighthouse"],["hello", "world", "lighthouse"]);
+assertArraysEqual(["hello", "world"],["hello", "world", "lighthouse"]);
