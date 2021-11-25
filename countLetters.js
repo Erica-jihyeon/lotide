@@ -6,7 +6,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const countLetters = (str) => {
+/*const countLetters = (str) => {
   const countStr = str.replace(/ /gi, '').toLowerCase();
   //array for char to be counted
   const countArr = [];
@@ -28,6 +28,16 @@ const countLetters = (str) => {
     }
   }
   return result;
-}
+}*/
+
+const countLetters = str => {
+  const countStr = str.replace(/ /gi, '').toLowerCase(); 
+  const result = {}  
+  for (const char of countStr) {    
+    result[char] = (result[char] || 0) + 1
+  }
+  return result;
+} 
+
 
 console.log(countLetters("lighthouse in the house"));
