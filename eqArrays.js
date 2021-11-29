@@ -19,4 +19,3 @@ const eqArrays = (arr1, arr2) => {
 };
 
 module.exports = eqArrays;
-console.log(eqArrays(["hello", "world"],["hello", "world", "lighthouse"]));
