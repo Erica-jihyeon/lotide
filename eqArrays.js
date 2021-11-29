@@ -18,12 +18,5 @@ const eqArrays = (arr1, arr2) => {
   return true;
 };
 
-
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => true
-assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), true); // => falal
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true); // => true
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), true); // => false
-
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true)
-
+module.exports = eqArrays;
 console.log(eqArrays(["hello", "world"],["hello", "world", "lighthouse"]));
