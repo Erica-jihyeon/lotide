@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@erica-j/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "learning at LHL",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Erica-jihyeon/lotide.git"
   },
-  "author": "",
+  "author": "erica",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Erica-jihyeon/lotide/issues"
